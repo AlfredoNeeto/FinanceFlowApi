@@ -1,0 +1,42 @@
+# Directório de build
+bin/
+obj/
+
+# Diretório de pacotes NuGet
+*.nupkg
+*.snupkg
+
+# Configurações locais do Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Diretório de pacotes do NuGet
+packages/
+*.dll
+*.exe
+
+# Logs
+*.log
+
+# Arquivos de teste
+TestResults/
+
+# Diretório de publicação
+publish/
+wwwroot/
+
+# Configurações locais de banco de dados
+appsettings.Local.json
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.log
+
+# Arquivos gerados pela build
+*.DS_Store
+Thumbs.db
